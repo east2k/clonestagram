@@ -83,7 +83,7 @@ export const SidebarItem = () => {
                 {newMenuList}
                 <div className={styles.sidebar_content_item}>
                     <div className={styles.sidebar_content_item_profile}>
-                        <img src={profileImage} alt="Mini User Profile Image" />
+                        <img src={profileImage} alt="Profile" />
                     </div>
                     <p className={styles.sidebar_content_item_name}>Profile</p>
                 </div>
