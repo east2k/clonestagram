@@ -1,0 +1,27 @@
+.home_more_about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.footer_link {
+    position: relative;
+    color: #737373;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 4px;
+    padding: 2px 0;
+}
+
+.footer_link::after {
+    position: absolute;
+    content: "\00B7";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -5px;
+}
+
+.footer_link:last-child::after {
+    content: "";
+}

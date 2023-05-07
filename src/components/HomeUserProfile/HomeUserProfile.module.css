@@ -1,0 +1,42 @@
+.home_user_profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.home_suggestion_profile_pic_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.home_suggestion_profile_pic {
+    width: 100%;
+    height: 100%;
+}
+
+.home_user_profile_details p {
+    font-size: 14px;
+}
+
+.home_user_profile_username {
+    color: #F5F5F5;
+    font-weight: 600;
+}
+
+.home_user_profile_tagname {
+    color: #A8A8A8;
+}
+
+.home_more_button {
+    cursor: pointer;
+    color: #0095F6;
+    margin-left: auto;
+    font-size: 12px;
+}

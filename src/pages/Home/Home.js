@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css"
-import { HomeSideContent } from "../../components/HomeSideContent/HomeSideContent";
+import { HomeSideContent } from "./HomeSideContent/HomeSideContent";
 import { HomeStorySlideshow } from "../../components/HomeStorySlideshow/HomeStorySlideshow";
 
 export const Home = () => {

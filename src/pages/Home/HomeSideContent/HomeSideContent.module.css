@@ -1,0 +1,29 @@
+.home_more{
+    padding: 25px 0px;
+    width: 320px;
+}
+.home_suggestions_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.home_suggestion_header_text{
+    color: #A8A8A8;
+    font-size: 14px;
+}
+
+.home_suggestion_header_button{
+    cursor: pointer;
+    color: #F5F5F5;
+    font-size: 12px;
+}
+
+.home_more_copyright{
+    font-size: 12px;
+    color: #737373;
+    margin-top: 20px;
+}
