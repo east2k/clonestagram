@@ -1,4 +1,5 @@
 .sidebar_container {
+    position: fixed;
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -38,7 +39,7 @@
     justify-content: space-between;
 }
 
-.sidebar_hamburger_menu_container{
+.sidebar_hamburger_menu_container {
     position: relative;
     margin-top: auto;
 }

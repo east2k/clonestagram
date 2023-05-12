@@ -1,6 +1,6 @@
 .home_more{
     padding: 25px 0px;
-    width: 320px;
+    max-width: 320px;
 }
 .home_suggestions_header{
     display: flex;

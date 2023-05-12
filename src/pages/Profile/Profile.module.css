@@ -1,0 +1,9 @@
+.Home {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.home_content{
+    margin-right:50px;
+}
