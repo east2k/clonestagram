@@ -30,6 +30,7 @@
 }
 
 .post_header_username {
+    cursor: pointer;
     font-weight: 700;
 }
 

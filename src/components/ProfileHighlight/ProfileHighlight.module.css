@@ -1,0 +1,39 @@
+.highlightContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 60px 25px;
+}
+
+.highlightCard {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 77px;
+    height: 77px;
+    background-color: #262626;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    outline: 1px solid #262626;
+    outline-offset: 2px;
+    margin: 0 25px;
+}
+
+.highlightText{
+    position: absolute;
+    font-size: 12px;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+}
+
+.plusIcon{
+    color: #737373;
+    font-size: 46px;
+}

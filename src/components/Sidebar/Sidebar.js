@@ -5,6 +5,7 @@ import { SidebarItem } from "./SidebarItem/SidebarItem";
 import { HamburgerMenu } from "./HamburgerMenu/HamburgerMenu";
 
 import styles from "./Sidebar.module.css";
+import { Link } from "react-router-dom";
 
 export const Sidebar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -30,9 +31,9 @@ export const Sidebar = () => {
 
     return (
         <div className={styles.sidebar_container}>
-            <div className={styles.sidebar_logo_container}>
+            <Link className={styles.sidebar_logo_container} to="/">
                 <Icon icon="mdi:instagram" width="25px" style={{ color: 'white' }} /> <span className={styles.logo_label}>Instagram</span>
-            </div>
+            </Link>
             <div className={styles.sidebar_content}>
                 <SidebarItem />
             </div>

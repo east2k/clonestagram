@@ -1,0 +1,112 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1280px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 15px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 25px;
+}
+
+.profile_image_container {
+    width: 30%;
+    margin-right: 30px;
+}
+
+.profile_image {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 50px;
+}
+
+.profile_image img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.profile_details {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.profile_details_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.profile_details_username {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    color: #f5f5f5;
+    margin-right: 20px;
+}
+
+.user_followers,
+.user_following{
+    cursor: pointer;
+}
+
+.profile_edit_button {
+    cursor: pointer;;
+    color: #f5f5f5;
+    background-color: #363636;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 7px 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    border: none;
+}
+
+.profile_edit_button:hover{
+    background-color: #262626;
+}
+
+.profile_settings_button {
+    cursor: pointer;
+    background: none;
+    color: #f5f5f5;
+    border: none;
+    outline: none;
+}
+
+.profile_details_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+.amount {
+    font-weight: 700;
+}
+
+.profile_details_description {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.profile_pronouns {
+    color: #a8a8a8;
+}

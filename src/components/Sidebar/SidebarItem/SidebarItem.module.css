@@ -45,9 +45,6 @@
     height: 25px;
     border-radius: 50%;
     overflow: hidden;
-}
-
-.sidebar_content_item_profile {
     transition: 0.25s;
 }
 
@@ -55,6 +52,9 @@
     transform: scale(1.1);
 }
 
+.sidebar_content_item_profile.active {
+    border: 1px solid #fff;
+}
 
 .sidebar_content_item_profile img {
     width: 100%;

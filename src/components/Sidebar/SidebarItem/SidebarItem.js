@@ -60,6 +60,8 @@ export const SidebarItem = () => {
     ])
 
     const handleChangeActiveClick = (index) => {
+        if (index === 7) setProfilePageActive(true)
+        else setProfilePageActive(false)
         setActiveMenu(prevActiveMenu => {
             return prevActiveMenu.map(menuItem => {
                 return menuItem.id === index ?
@@ -86,12 +88,17 @@ export const SidebarItem = () => {
         )
     })
 
+    const [profilePageActive, setProfilePageActive] = useState(false)
+
     return (
         <>
             <div className={styles.sidebar_content_item_list}>
                 {newMenuList}
-                <Link className={styles.sidebar_content_item} to="/profile">
-                    <div className={styles.sidebar_content_item_profile}>
+                <Link
+                    className={`${styles.sidebar_content_item} ${profilePageActive ? styles.active : ""}`} to="/profile"
+                    onClick={() => handleChangeActiveClick(7)}
+                >
+                    <div className={`${styles.sidebar_content_item_profile} ${profilePageActive ? styles.active : ""}`}>
                         <img src={profileImage} alt="Profile" />
                     </div>
                     <p className={styles.sidebar_content_item_name}>Profile</p>
