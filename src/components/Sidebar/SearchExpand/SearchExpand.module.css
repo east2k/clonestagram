@@ -1,0 +1,79 @@
+.sidebar_extend {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 400px;
+    left: -405px;
+    height: 100vh;
+    background-color: #000;
+    border-right: 1px solid #262626;
+    transition: transform 500ms;
+    /* padding: 20px 30px; */
+}
+
+/* Expand Bar */
+
+.sidebar_extend.expand {
+    transform: translateX(470px)
+}
+
+.sidebar_extend_header {
+    padding: 20px 15px;
+    border-bottom: 1px solid #262626;
+}
+
+.search_header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.search_container {
+    position: relative;
+}
+
+.search_icon {
+    cursor: pointer;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #000;
+    background-color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.search_input {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #262626;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.search_body {
+    padding: 20px 25px;
+    width: 100%;
+}
+
+.search_recent_label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search_placeholder {
+    display: block;
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100%;
+
+}

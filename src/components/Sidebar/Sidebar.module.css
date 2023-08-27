@@ -1,13 +1,33 @@
 .sidebar_container {
     position: fixed;
-    display: flex;
-    flex-direction: column;
     width: 25%;
     max-width: 250px;
     min-width: 100px;
     height: 100vh;
     border-right: 1px solid #262626;
+    transition: max-width 500ms, min-width 500ms;
+    z-index: 2;
+}
+
+.ig_logo{
+    width: 25px;
+    min-width: 25px;
+    min-height: 25px;
+}
+
+.sidebar_container.expand {
+    max-width: 70px;
+    min-width: 70px;
+}
+
+.sidebar_body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    height: 100vh;
     padding: 20px 10px;
+    background-color: #000;
 }
 
 .sidebar_logo_container {
@@ -22,15 +42,14 @@
 }
 
 .sidebar_logo_container>svg {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 }
 
 .logo_label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     font-size: 21px;
-    padding-bottom: 3px;
     letter-spacing: 1px;
 }
 
